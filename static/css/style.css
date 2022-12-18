@@ -895,8 +895,8 @@ footer .text span a:hover{
   }
 
   .timeline .eatl img{
-    height: 100px;
-    width: 250px;
+    height: 50%;
+    width: 75%;
     object-fit: cover;
     border-radius: 12px;
   }
