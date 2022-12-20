@@ -267,14 +267,26 @@ section .button button:hover{
 .experience{
   background:white;
 }
-.experience .eduex .exp {
-      float: left;
+.experience .text-one{
+  font-size: 40px;
+  margin:5px 0;
+  color:var(--primary-color);
 }
-.experience .eduex .edu {
-      /* float: right; */
-      display: flex;
-      justify-content: flex-end;
-      /* text-align: justify; */ 
+.experience .text-two{
+  font-size: 30px;
+  margin: 10px;
+  color: rgb(8, 8, 141);
+}
+.experience .text-three{
+  font-size: 20px;
+  margin: 15px;
+  color:#09649c;
+}
+.experience .text-four{
+  font-size: 15px;
+  margin:5px 0;
+  color:black;
+  font-style: italic;
 }
 
 
@@ -895,8 +907,8 @@ footer .text span a:hover{
   }
 
   .timeline .eatl img{
-    height: 100px;
-    width: 250px;
+    height: 50%;
+    width: 75%;
     object-fit: cover;
     border-radius: 12px;
   }
