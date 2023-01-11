@@ -288,7 +288,27 @@ section .button button:hover{
   color:black;
   font-style: italic;
 }
+.experience .sbl-website{
+  font-size: 13px;
+  padding-left: 100px;
+  font-style: italic;
+}
 
+.experience .dbl-website{
+  font-size: 13px;
+  padding-left: 57px;
+  font-style: italic;
+}
+.experience .akg-website{
+  font-size: 13px;
+  padding-left: 70px;
+  font-style: italic;
+}
+.experience .gp-website{
+  font-size: 13px;
+  padding-left: 150px;
+  font-style: italic;
+}
 
 /* My Skills CSS */
 .skills{
@@ -907,6 +927,12 @@ footer .text span a:hover{
   }
 
   .timeline .eatl img{
+    height: 50%;
+    width: 75%;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  .timeline .iagp img{
     height: 50%;
     width: 75%;
     object-fit: cover;
